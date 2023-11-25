@@ -1,12 +1,12 @@
 {
-  "description": "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.",
+  "description": "I have more than six years of experience including software engineer, application support, and IT programming also as ESB Developer, working with various Microsoft Ecosystem technologies, IBM Product and other tools such as Redis, ElasticSearch etc. I am passionate about learning new skills and staying updated with the latest trends and innovations in the field. I believe that there is no age limit for learning, and that learning keeps me young and motivated.",
   "skills": [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design"
+    "NET Core",
+    "Golang",
+    "Javascript",
+    "SQL (SQL Server, MySQL, Postgres)",
+    "Build API with Clean Architecture",
+    "Middleware (ESB) Developer"
   ],
-  "detailOrQuote": "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all."
+  "detailOrQuote": "I am passionate about solving problems in creative new ways to drive innovation. Leveraging my experience as a software engineer, I continue to look for new and better ways to make technology accessible to everyone without barriers."
 }
