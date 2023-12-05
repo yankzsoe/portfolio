@@ -12,6 +12,7 @@ body {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
