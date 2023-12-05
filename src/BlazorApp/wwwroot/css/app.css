@@ -13,6 +13,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 div#main {
   display: flex;
   flex-direction: column;
@@ -184,6 +188,15 @@ img.social-icon {
   height: 30px;
 }
 
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
@@ -235,3 +248,4 @@ img.social-icon {
     .loading-progress-text:after {
         content: var(--blazor-load-percentage-text, "Loading");
     }
+
