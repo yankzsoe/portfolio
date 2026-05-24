@@ -3,7 +3,7 @@
     {
         <img class="background" src="@(hero.Src)" alt="@(hero.Alt)" />
     }
-    <div style="position: absolute; top: 30%; left: 2rem;">
+    <div class="hero-content">
     @if (property is null)
     {
         <p><em>Loading...</em></p>
@@ -12,11 +12,15 @@
     {
         <h1>@property.Name</h1>
         <h2>@property.Title</h2>
+        <div class="hero-actions" aria-label="Primary links">
+            <a class="button primary" href="#portfolio" target="_top">View Work</a>
+            <a class="button secondary" href="#contact" target="_top">Contact</a>
+        </div>
     }
     </div>
-    <div style="position: absolute; bottom: 8rem; left: 50%;">
-        <a href="#about" target="_top">
-            <img src="images/down-arrow.svg" style="height: 3rem; width: 3rem;" alt="scroll down" />
+    <div class="scroll-cue">
+        <a href="#about" target="_top" aria-label="Scroll to about section">
+            <img src="images/down-arrow.svg" alt="" />
         </a>
     </div>
 </section>

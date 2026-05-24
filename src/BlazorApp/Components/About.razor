@@ -4,7 +4,7 @@
         <img class="background" src="@(hero.Src)" alt="@(hero.Alt)" />
     }
     <h2>About Myself</h2>
-    <div style="background-color: white; width: 50%; padding: 4rem; margin: 3rem auto; text-align: center;">
+    <div class="about-panel">
     @if (aboutMe is null)
     {
         <p><em>Loading...</em></p>
@@ -20,7 +20,7 @@
         }
         </ul>
         <hr />
-        <p class="box small" style="padding: 1rem 3rem 0;">@aboutMe.DetailOrQuote</p>
+        <p class="box small detail-quote">@aboutMe.DetailOrQuote</p>
     }
     </div>
 </section>
