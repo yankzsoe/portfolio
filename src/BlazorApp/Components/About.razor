@@ -11,7 +11,7 @@
     }
     else
     {
-        <p class="box medium">@aboutMe.Description</p>
+        <p class="box medium">@GetDescription(aboutMe)</p>
         <hr />
             <ul class="flex-container">
         @foreach (var skill in aboutMe.Skills)
@@ -40,5 +40,17 @@
         aboutMe = await Http.GetFromJsonAsync<AboutMe>("sample-data/aboutme.json");
         hero = await HeroImageService.GetHeroAsync(img => img.Name is "about");
 
+    }
+
+    private static string GetDescription(AboutMe aboutMe)
+    {
+        if (aboutMe.ExperienceStartYear is not { } startYear)
+        {
+            return aboutMe.Description;
+        }
+
+        var yearsExperience = Math.Max(0, DateTime.Now.Year - startYear);
+
+        return aboutMe.Description.Replace("{yearsExperience}", yearsExperience.ToString());
     }
 }
