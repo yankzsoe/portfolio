@@ -1,17 +1,17 @@
 {
-  "description": "I have more than {yearsExperience} years of experience including software engineer, application support, and IT programming also as ESB Developer, working with various Microsoft Ecosystem technologies, IBM Product and other tools such as Redis, ElasticSearch etc. I am passionate about learning new skills and staying updated with the latest trends and innovations in the field. I believe that there is no age limit for learning, and that learning keeps me young and motivated.",
+  "description": "With more than {yearsExperience} years of experience across software engineering, application support, IT programming, and ESB development, I build reliable backend and middleware solutions using the Microsoft ecosystem, IBM products, and tools such as Redis and Elasticsearch. I enjoy learning new technologies, improving existing systems, and finding better ways to solve real-world problems.",
   "experienceStartYear": 2017,
   "skills": [
-    "NET Core",
-    "Golang",
-    "Javascript",
-    "Typescript",
-    "VueJS",
-    "SQL (SQL Server, MySQL, Postgres)",
-    "Build API with Clean Architecture",
-    "Middleware (ESB) Developer",
+    ".NET",
+    "Go",
+    "JavaScript",
+    "TypeScript",
+    "Vue.js",
+    "SQL (SQL Server, MySQL, PostgreSQL)",
+    "API Development with Clean Architecture",
+    "Middleware and ESB Development",
     "Redis",
-    "ElasticSearch"
+    "Elasticsearch"
   ],
-  "detailOrQuote": "I am passionate about solving problems in creative new ways to drive innovation. Leveraging my experience as a software engineer, I continue to look for new and better ways to make technology accessible to everyone without barriers."
+  "detailOrQuote": "I believe technology should make work simpler, systems more resilient, and digital experiences more accessible. That mindset keeps me learning, experimenting, and turning complex problems into reliable solutions."
 }
